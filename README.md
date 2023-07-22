@@ -39,7 +39,7 @@ else:
 ```
 simple_calc = Calculator([
   OperationSum(4),
-  OperationDiv(1),             ->      priority = [OperationDiv, IperationMul, OperationSub, OperationSum]
+  OperationDiv(1),    ->      priority = [OperationDiv, IperationMul, OperationSub, OperationSum]
   OperationMul(2),
   OperationSub(3)
 ])
